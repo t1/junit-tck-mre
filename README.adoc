@@ -1,0 +1,10 @@
+= JUnit TCK MRE
+
+A Minimal Reproducible Example for writing a Test Compatibility Kit with JUnit 5. See https://github.com/junit-team/junit5/discussions/2589[this] JUnit Discussion.
+
+The current implementation uses the 'interfaces' suggestion that doesn't scale well:
+
+1. I have to manually aggregate all interfaces; there is no test discovery.
+2. The structure of the test interfaces is lost, i.e. all tests are running at the same level.
+3. I can't have `@Nested` classes within test interfaces.
+
