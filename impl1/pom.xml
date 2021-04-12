@@ -20,11 +20,13 @@
             <version>${project.version}</version>
         </dependency>
 
+        <!-- this is the dependency that I'd like to have:
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>tck</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
+        -->
     </dependencies>
 </project>

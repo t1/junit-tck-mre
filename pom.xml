@@ -12,7 +12,7 @@
     <modules>
         <module>tck</module>
         <module>api</module>
-        <module>impl</module>
+        <module>impl1</module>
     </modules>
 
     <properties>
