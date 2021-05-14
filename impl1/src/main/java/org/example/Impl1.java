@@ -1,6 +1,6 @@
 package org.example;
 
-public class Impl implements Api {
+public class Impl1 implements Api {
     @Override public String foo() {
         return "okay";
     }
