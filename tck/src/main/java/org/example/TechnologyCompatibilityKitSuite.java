@@ -5,5 +5,5 @@ import org.junit.platform.suite.api.Suite;
 
 @Suite
 @SelectPackages("org.example")
-public abstract class TestCompatibilityKitSuite {
+public abstract class TechnologyCompatibilityKitSuite {
 }

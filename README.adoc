@@ -1,5 +1,5 @@
 = JUnit TCK MRE
 
-A Minimal Reproducible Example for writing a Test Compatibility Kit with JUnit 5. See https://github.com/junit-team/junit5/issues/2594[this] JUnit Issue.
+A Minimal Reproducible Example for writing a Technology Compatibility Kit with JUnit 5. See https://github.com/junit-team/junit5/issues/2594[this] JUnit Issue.
 
 The `tck` currently has a `runtime` dependency on `impl1`, while instead the implementations should have a dependency on the `tck`. And the tests in the `tck` are in `src/test`, while they should be in `src/main`.

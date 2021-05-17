@@ -1,5 +1,5 @@
 package test;
 
-import org.example.TestCompatibilityKitSuite;
+import org.example.TechnologyCompatibilityKitSuite;
 
-class TckTest extends TestCompatibilityKitSuite {}
+class TckTest extends TechnologyCompatibilityKitSuite {}
